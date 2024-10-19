@@ -1,0 +1,10 @@
+14:13:42 **** Incremental Build of configuration Debug for project ros_test5 ****
+make -j12 all 
+arm-none-eabi-size  ros_test5.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22192	     92	   4564	  26848	   68e0	ros_test5.elf
+Finished building: default.size.stdout
+ 
+
+14:13:43 Build Finished. 0 errors, 0 warnings. (took 619ms)
+

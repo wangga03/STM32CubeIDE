@@ -1,0 +1,34 @@
+09:16:16 **** Incremental Build of configuration Debug for project rosserial-test ****
+make -j12 all 
+arm-none-eabi-g++ "../Core/Src/mainpp.cpp" -mcpu=cortex-m4 -std=gnu++14 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/mainpp.d" -MT"Core/Src/mainpp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mainpp.o"
+In file included from ../Core/Inc/ros.h:39,
+                 from ../Core/Src/mainpp.cpp:9:
+../Core/Inc/STM32Hardware.h: In member function 'void STM32Hardware::write(uint8_t*, int)':
+../Core/Inc/STM32Hardware.h:113:22: warning: comparison of integer expressions of different signedness: 'int' and 'long unsigned int' [-Wsign-compare]
+  113 |       int n_tail = n <= tbuflen - twind ? n : tbuflen - twind;
+      |                    ~~^~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/std_msgs/Int32MultiArray.h:8,
+                 from ../Core/Src/mainpp.cpp:10:
+../Core/Inc/std_msgs/MultiArrayLayout.h: In member function 'virtual int std_msgs::MultiArrayLayout::deserialize(unsigned char*)':
+../Core/Inc/std_msgs/MultiArrayLayout.h:57:60: warning: 'void* realloc(void*, size_t)' moving an object of non-trivially copyable type 'std_msgs::MultiArrayLayout::_dim_type' {aka 'class std_msgs::MultiArrayDimension'}; use 'new' and 'delete' instead [-Wclass-memaccess]
+   57 |         this->dim = (std_msgs::MultiArrayDimension*)realloc(this->dim, dim_lengthT * sizeof(std_msgs::MultiArrayDimension));
+      |                                                     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/std_msgs/MultiArrayLayout.h:8:
+../Core/Inc/std_msgs/MultiArrayDimension.h:12:9: note: 'std_msgs::MultiArrayLayout::_dim_type' {aka 'class std_msgs::MultiArrayDimension'} declared here
+   12 |   class MultiArrayDimension : public ros::Msg
+      |         ^~~~~~~~~~~~~~~~~~~
+../Core/Inc/std_msgs/MultiArrayLayout.h:61:15: warning: 'void* memcpy(void*, const void*, size_t)' writing to an object of type 'std_msgs::MultiArrayLayout::_dim_type' {aka 'class std_msgs::MultiArrayDimension'} with no trivial copy-assignment; use copy-assignment or copy-initialization instead [-Wclass-memaccess]
+   61 |         memcpy( &(this->dim[i]), &(this->st_dim), sizeof(std_msgs::MultiArrayDimension));
+      |         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/std_msgs/MultiArrayDimension.h:12:9: note: 'std_msgs::MultiArrayLayout::_dim_type' {aka 'class std_msgs::MultiArrayDimension'} declared here
+   12 |   class MultiArrayDimension : public ros::Msg
+      |         ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-g++ -o "rosserial-test.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/wgg/STM32CubeIDE/rosserial-test/STM32F411CEUX_FLASH.ld" -Wl,-Map="rosserial-test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+/opt/st/stm32cubeide_1.15.1/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/mainpp.o: in function `messageCb(std_msgs::Int32MultiArray const&)':
+/home/wgg/STM32CubeIDE/rosserial-test/Debug/../Core/Src/mainpp.cpp:23: undefined reference to `incoming_value'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:88: rosserial-test.elf] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+09:16:17 Build Failed. 2 errors, 3 warnings. (took 975ms)
+

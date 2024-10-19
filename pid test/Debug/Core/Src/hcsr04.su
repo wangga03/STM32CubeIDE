@@ -1,0 +1,4 @@
+../Core/Src/hcsr04.c:27:6:delay_uS	16	static
+../Core/Src/hcsr04.c:38:6:HAL_TIM_IC_CaptureCallback	16	static
+../Core/Src/hcsr04.c:75:6:HCSR04_Read	8	static
+../Core/Src/hcsr04.c:84:7:getDistance	4	static

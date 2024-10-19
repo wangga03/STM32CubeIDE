@@ -1,0 +1,10 @@
+20:50:00 **** Incremental Build of configuration Debug for project VL53L ****
+make -j12 all 
+arm-none-eabi-size  VL53L.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25596	     16	   1840	  27452	   6b3c	VL53L.elf
+Finished building: default.size.stdout
+ 
+
+20:50:01 Build Finished. 0 errors, 0 warnings. (took 825ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ball_balancing/Core/Src/servo.c&apos; to &apos;servoKinematik.c&apos;" description="Rename resource &apos;servo.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/servo.c" name="servoKinematik.c" stamp="1723042294307" updateReferences="true"/>
+</session>

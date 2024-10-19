@@ -1,0 +1,4 @@
+../Core/Src/pid.c:12:6:PID_Init	32	static
+../Core/Src/pid.c:25:7:PID_Update	24	static
+../Core/Src/pid.c:50:7:error_sudut_calculation	16	static
+../Core/Src/pid.c:56:7:error_jarak_calculation	16	static

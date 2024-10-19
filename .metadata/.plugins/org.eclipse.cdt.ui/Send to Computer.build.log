@@ -1,0 +1,10 @@
+22:19:28 **** Incremental Build of configuration Debug for project Send to Computer ****
+make -j12 all 
+arm-none-eabi-size  Send\ to\ Computer.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11956	     12	   1860	  13828	   3604	Send to Computer.elf
+Finished building: default.size.stdout
+ 
+
+22:19:28 Build Finished. 0 errors, 0 warnings. (took 636ms)
+

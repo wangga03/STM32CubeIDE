@@ -1,0 +1,10 @@
+20:47:47 **** Incremental Build of configuration Debug for project Test Encoder ****
+make -j12 all 
+arm-none-eabi-size  Test\ Encoder.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12492	     12	   1924	  14428	   385c	Test Encoder.elf
+Finished building: default.size.stdout
+ 
+
+20:47:47 Build Finished. 0 errors, 0 warnings. (took 778ms)
+

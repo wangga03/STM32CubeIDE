@@ -1,0 +1,40 @@
+2024-07-16 00:00:48,527 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-16 00:00:57,081 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-16 00:01:03,962 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 305787240 Bytes (799014912)
+2024-07-16 00:01:04,089 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 283962736 Bytes (799014912)
+2024-07-16 00:01:20,651 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-07-16 00:01:23,157 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 673599520 Bytes (799014912)
+2024-07-16 00:01:24,894 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 375803344 Bytes (799014912)
+2024-07-16 00:01:24,963 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-07-16 00:01:24,963 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2024-07-16 00:01:24,963 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2024-07-16 00:01:24,963 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-07-16 00:01:24,963 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-07-16 00:01:24,963 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-07-16 00:01:24,963 [INFO] CodeGenerator:807 - code generatio: config db path: /opt/st/stm32cubeide_1.15.1/plugins/com.st.stm32cube.common.mx_6.11.1.202404110753//db/
+2024-07-16 00:01:25,019 [INFO] CodeEngine:255 - oldGeneratedFile, /home/wgg/STM32CubeIDE/Timer PWM/MXTmpFiles/license.tmp_save
+2024-07-16 00:01:25,069 [INFO] CodeEngine:279 - Generated code: /home/wgg/STM32CubeIDE/Timer PWM/MXTmpFiles/license.tmp
+2024-07-16 00:01:25,074 [INFO] CodeEngine:255 - oldGeneratedFile, /home/wgg/STM32CubeIDE/Timer PWM/MXTmpFiles/gpio.tmp_save
+2024-07-16 00:01:25,131 [INFO] CodeEngine:279 - Generated code: /home/wgg/STM32CubeIDE/Timer PWM/MXTmpFiles/gpio.tmp
+2024-07-16 00:01:25,159 [INFO] CodeEngine:255 - oldGeneratedFile, /home/wgg/STM32CubeIDE/Timer PWM/Core/Src/stm32f1xx_it.c_save
+2024-07-16 00:01:25,249 [INFO] CodeEngine:279 - Generated code: /home/wgg/STM32CubeIDE/Timer PWM/Core/Src/stm32f1xx_it.c
+2024-07-16 00:01:25,250 [INFO] CodeEngine:255 - oldGeneratedFile, /home/wgg/STM32CubeIDE/Timer PWM/Core/Inc/stm32f1xx_it.h_save
+2024-07-16 00:01:25,293 [INFO] CodeEngine:279 - Generated code: /home/wgg/STM32CubeIDE/Timer PWM/Core/Inc/stm32f1xx_it.h
+2024-07-16 00:01:25,295 [INFO] CodeEngine:255 - oldGeneratedFile, /home/wgg/STM32CubeIDE/Timer PWM/Core/Src/stm32f1xx_hal_msp.c_save
+2024-07-16 00:01:25,358 [INFO] CodeEngine:279 - Generated code: /home/wgg/STM32CubeIDE/Timer PWM/Core/Src/stm32f1xx_hal_msp.c
+2024-07-16 00:01:25,359 [INFO] CodeEngine:255 - oldGeneratedFile, /home/wgg/STM32CubeIDE/Timer PWM/MXTmpFiles/system.tmp_save
+2024-07-16 00:01:25,400 [INFO] CodeEngine:279 - Generated code: /home/wgg/STM32CubeIDE/Timer PWM/MXTmpFiles/system.tmp
+2024-07-16 00:01:25,401 [INFO] CodeEngine:311 - oldGeneratedFile, /home/wgg/STM32CubeIDE/Timer PWM/Core/Inc/stm32f1xx_hal_conf.h_save
+2024-07-16 00:01:25,449 [INFO] CodeEngine:335 - Generated code: /home/wgg/STM32CubeIDE/Timer PWM/Core/Inc/stm32f1xx_hal_conf.h
+2024-07-16 00:01:25,454 [WARN] IPConfigManager:3513 - IP not found : TIM
+2024-07-16 00:01:25,454 [WARN] CodeGenerator:3951 - IP not found : null
+2024-07-16 00:01:25,456 [INFO] CodeEngine:255 - oldGeneratedFile, /home/wgg/STM32CubeIDE/Timer PWM/Core/Inc/main.h_save
+2024-07-16 00:01:25,500 [INFO] CodeEngine:279 - Generated code: /home/wgg/STM32CubeIDE/Timer PWM/Core/Inc/main.h
+2024-07-16 00:01:25,500 [INFO] CodeEngine:255 - oldGeneratedFile, /home/wgg/STM32CubeIDE/Timer PWM/Core/Src/main.c_save
+2024-07-16 00:01:25,569 [INFO] CodeEngine:279 - Generated code: /home/wgg/STM32CubeIDE/Timer PWM/Core/Src/main.c
+2024-07-16 00:01:25,709 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 11mS.
+2024-07-16 00:01:25,710 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-07-16 00:01:25,770 [INFO] ConfigFileManager:1503 - The Die is : DIE410
+2024-07-16 00:01:26,120 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 410mS.
+2024-07-16 00:01:26,120 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-07-16 00:01:26,120 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.

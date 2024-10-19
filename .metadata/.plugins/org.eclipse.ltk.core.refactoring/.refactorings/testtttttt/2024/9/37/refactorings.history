@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;testtttttt/Core/Src/ros_comunication.cpp&apos; to &apos;ros_comunication.c&apos;" description="Rename resource &apos;ros_comunication.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/ros_comunication.cpp" name="ros_comunication.c" stamp="1726139176394" updateReferences="true"/>
+</session>

@@ -1,0 +1,39 @@
+22:57:50 **** Incremental Build of configuration Debug for project LCD_I2C_Test ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/i2clcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"/home/wgg/STM32CubeIDE/LCD_I2C_Test/Core/Inc" -I../Core/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/i2clcd.d" -MT"Core/Src/i2clcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/i2clcd.o"
+../Core/Src/i2clcd.c: In function 'lcd_send_string':
+../Core/Src/i2clcd.c:96:41: error: case label does not reduce to an integer constant
+   96 |                                         case rep_auml:
+      |                                         ^~~~
+../Core/Src/i2clcd.c:99:41: error: case label does not reduce to an integer constant
+   99 |                                         case rep_ouml:
+      |                                         ^~~~
+../Core/Src/i2clcd.c:102:41: error: case label does not reduce to an integer constant
+  102 |                                         case rep_uuml:
+      |                                         ^~~~
+../Core/Src/i2clcd.c:105:41: error: case label does not reduce to an integer constant
+  105 |                                         case rep_sz:
+      |                                         ^~~~
+../Core/Src/i2clcd.c:111:41: warning: value computed is not used [-Wunused-value]
+  111 |                                         *str++;
+      |                                         ^~~~~~
+../Core/Src/i2clcd.c:117:41: warning: value computed is not used [-Wunused-value]
+  117 |                                         *str++;
+      |                                         ^~~~~~
+../Core/Src/i2clcd.c:82:31: warning: variable 'rep_sz' set but not used [-Wunused-but-set-variable]
+   82 |                 const uint8_t rep_sz = 159;
+      |                               ^~~~~~
+../Core/Src/i2clcd.c:81:31: warning: variable 'rep_uuml' set but not used [-Wunused-but-set-variable]
+   81 |                 const uint8_t rep_uuml = 188;
+      |                               ^~~~~~~~
+../Core/Src/i2clcd.c:80:31: warning: variable 'rep_ouml' set but not used [-Wunused-but-set-variable]
+   80 |                 const uint8_t rep_ouml = 182;
+      |                               ^~~~~~~~
+../Core/Src/i2clcd.c:79:31: warning: variable 'rep_auml' set but not used [-Wunused-but-set-variable]
+   79 |                 const uint8_t rep_auml = 164;
+      |                               ^~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/i2clcd.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+22:57:50 Build Failed. 5 errors, 6 warnings. (took 620ms)
+

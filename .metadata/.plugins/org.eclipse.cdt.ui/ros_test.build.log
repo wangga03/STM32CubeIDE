@@ -1,0 +1,133 @@
+08:35:28 **** Incremental Build of configuration Debug for project ros_test ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/mainpp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/mainpp.d" -MT"Core/Src/mainpp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/mainpp.o"
+In file included from /home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/std_msgs/Time.h:7,
+                 from /home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/node_handle.h:40,
+                 from /home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros.h:38,
+                 from ../Core/Src/mainpp.c:10:
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/msg.h:42:1: error: unknown type name 'namespace'
+   42 | namespace ros
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/msg.h:43:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   43 | {
+      | ^
+In file included from /home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/time.h:38,
+                 from /home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/std_msgs/Time.h:8:
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/duration.h:41:1: error: unknown type name 'namespace'
+   41 | namespace ros
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/duration.h:42:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   42 | {
+      | ^
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/time.h:42:1: error: unknown type name 'namespace'
+   42 | namespace ros
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/time.h:43:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   43 | {
+      | ^
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/std_msgs/Time.h:10:1: error: unknown type name 'namespace'
+   10 | namespace std_msgs
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/std_msgs/Time.h:11:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   11 | {
+      | ^
+In file included from /home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/node_handle.h:41:
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/rosserial_msgs/TopicInfo.h:9:1: error: unknown type name 'namespace'
+    9 | namespace rosserial_msgs
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/rosserial_msgs/TopicInfo.h:10:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   10 | {
+      | ^
+In file included from /home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/node_handle.h:42:
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/rosserial_msgs/Log.h:9:1: error: unknown type name 'namespace'
+    9 | namespace rosserial_msgs
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/rosserial_msgs/Log.h:10:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   10 | {
+      | ^
+In file included from /home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/node_handle.h:43:
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/rosserial_msgs/RequestParam.h:8:1: error: unknown type name 'namespace'
+    8 | namespace rosserial_msgs
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/rosserial_msgs/RequestParam.h:9:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+    9 | {
+      | ^
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/node_handle.h:47:1: error: unknown type name 'namespace'
+   47 | namespace ros
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/node_handle.h:48:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   48 | {
+      | ^
+In file included from /home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/node_handle.h:59:
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/publisher.h:41:1: error: unknown type name 'namespace'
+   41 | namespace ros
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/publisher.h:42:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   42 | {
+      | ^
+In file included from /home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/node_handle.h:60:
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/subscriber.h:40:1: error: unknown type name 'namespace'
+   40 | namespace ros
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/subscriber.h:41:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   41 | {
+      | ^
+In file included from /home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/node_handle.h:61:
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/service_server.h:43:1: error: unknown type name 'namespace'
+   43 | namespace ros
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/service_server.h:44:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   44 | {
+      | ^
+In file included from /home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/node_handle.h:62:
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/service_client.h:43:1: error: unknown type name 'namespace'
+   43 | namespace ros
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/service_client.h:44:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   44 | {
+      | ^
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/node_handle.h:64:1: error: unknown type name 'namespace'
+   64 | namespace ros
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros/node_handle.h:65:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   65 | {
+      | ^
+In file included from /home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros.h:39:
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/STM32Hardware.h:54:1: error: unknown type name 'class'
+   54 | class STM32Hardware {
+      | ^~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/STM32Hardware.h:54:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   54 | class STM32Hardware {
+      |                     ^
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros.h:41:1: error: unknown type name 'namespace'
+   41 | namespace ros
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/ros.h:42:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   42 | {
+      | ^
+In file included from ../Core/Src/mainpp.c:11:
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/std_msgs/Int32.h:9:1: error: unknown type name 'namespace'
+    9 | namespace std_msgs
+      | ^~~~~~~~~
+/home/wgg/STM32CubeIDE/ros_test/Core/Inc/ROS/std_msgs/Int32.h:10:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   10 | {
+      | ^
+../Core/Src/mainpp.c:13:4: error: expected '=', ',', ';', 'asm' or '__attribute__' before '::' token
+   13 | ros::NodeHandle nh;
+      |    ^~
+../Core/Src/mainpp.c:15:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before '::' token
+   15 | std_msgs::Int32 num_msg;
+      |         ^~
+../Core/Src/mainpp.c:17:4: error: expected '=', ',', ';', 'asm' or '__attribute__' before '::' token
+   17 | ros::Publisher num_pub("num", &num_msgs);
+      |    ^~
+../Core/Src/mainpp.c: In function 'HAL_UART_TxCpltCallback':
+../Core/Src/mainpp.c:20:39: error: 'nh' undeclared (first use in this function)
+   20 |         if(huart->Instance == USART1) nh.getHardware()->flush();
+      |                                       ^~
+../Core/Src/mainpp.c:20:39: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:46: Core/Src/mainpp.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+08:35:29 Build Failed. 37 errors, 0 warnings. (took 849ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;rosserial_test/Core/Src/mainpp.c&apos; to &apos;mainpp.cpp&apos;" description="Rename resource &apos;mainpp.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/mainpp.c" name="mainpp.cpp" stamp="1726032242537" updateReferences="true"/>
+</session>

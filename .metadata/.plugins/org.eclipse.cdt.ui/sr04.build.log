@@ -1,0 +1,10 @@
+21:47:35 **** Incremental Build of configuration Debug for project sr04 ****
+make -j12 all 
+arm-none-eabi-size  sr04.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8972	     12	   1652	  10636	   298c	sr04.elf
+Finished building: default.size.stdout
+ 
+
+21:47:36 Build Finished. 0 errors, 0 warnings. (took 721ms)
+

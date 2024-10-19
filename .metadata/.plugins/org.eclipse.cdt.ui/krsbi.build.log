@@ -1,0 +1,10 @@
+11:23:53 **** Incremental Build of configuration Debug for project krsbi ****
+make -j12 all 
+arm-none-eabi-size  krsbi.elf 
+   text	   data	    bss	    dec	    hex	filename
+  42932	    132	   5012	  48076	   bbcc	krsbi.elf
+Finished building: default.size.stdout
+ 
+
+11:23:53 Build Finished. 0 errors, 0 warnings. (took 628ms)
+

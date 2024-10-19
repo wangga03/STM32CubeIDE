@@ -1,0 +1,2 @@
+../Core/Src/motor.c:17:6:remap	32	static
+../Core/Src/motor.c:37:6:motor_calculation	128	static

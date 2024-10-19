@@ -1,0 +1,10 @@
+20:26:04 **** Incremental Build of configuration Debug for project stm32Test ****
+make -j12 all 
+arm-none-eabi-size  stm32Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3656	     12	   1572	   5240	   1478	stm32Test.elf
+Finished building: default.size.stdout
+ 
+
+20:26:05 Build Finished. 0 errors, 0 warnings. (took 875ms)
+

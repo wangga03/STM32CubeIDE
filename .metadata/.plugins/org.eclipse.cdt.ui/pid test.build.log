@@ -1,0 +1,17 @@
+09:17:16 **** Incremental Build of configuration Debug for project pid test ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/hcsr04.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/hcsr04.d" -MT"Core/Src/hcsr04.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/hcsr04.o"
+arm-none-eabi-gcc -o "pid test.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/wgg/STM32CubeIDE/pid test/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pid test.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pid test.elf
+ 
+arm-none-eabi-size  pid\ test.elf 
+arm-none-eabi-objdump -h -S pid\ test.elf  > "pid test.list"
+   text	   data	    bss	    dec	    hex	filename
+  11816	     12	   1756	  13584	   3510	pid test.elf
+Finished building: default.size.stdout
+ 
+Finished building: pid test.list
+ 
+
+09:17:17 Build Finished. 0 errors, 0 warnings. (took 769ms)
+
